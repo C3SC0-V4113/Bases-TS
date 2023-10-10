@@ -1,8 +1,9 @@
+import { Counter } from "./bases";
+
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
-      <hr />
+      <Counter initialValue={10} />
     </>
   );
 }
